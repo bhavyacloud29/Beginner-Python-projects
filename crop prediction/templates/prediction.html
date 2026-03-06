@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CROP PREDICTION API</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico",type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+{% if prediction %}
+    <div id="predi">
+        <h2>Predicted Crop: {{ prediction }}</h2>
+    </div>
+{% endif %}
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CROP PREDICTION API</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico",type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+    <div class="login">
+
+        <h1>Crop Prediction Model</h1>
+        <form action="{{ url_for('predict')}}" method="post">
+            <input type="text" name="nitrogen" placeholder="Nitrogen Level" required="required"/>
+            <input type="text" name="phosphorus" placeholder="Phosphorus Level" required="required"/>
+            <input type="text" name="potassium" placeholder="Potassium Level" required="required"/>
+            <input type="text" name="temperature" placeholder="Temperature" required="required"/>
+            <input type="text" name="humidity" placeholder="Humidity" required="required"/>
+            <input type="text" name="ph" placeholder="pH Level" required="required"/>
+            <input type="text" name="rainfall" placeholder="Rainfall" required="required"/>
+            
+            <button type="submit" class="btn btn-primary">Predict</button>
+        </form>
+
+{% if prediction_text %}
+    <div id="predi">
+        <h2>Predicted Crop: {{ prediction_text }}</h2>
+    </div>
+{% endif %}
+
+</body>
+</html>
+
+
+
+
