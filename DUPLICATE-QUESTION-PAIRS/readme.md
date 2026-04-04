@@ -51,13 +51,6 @@ Question-Pair-Model/
 
 ---
 
-## 📸 Demo
-
-> Add your screenshot here after running the app
-
-![Demo Screenshot](https://via.placeholder.com/800x400.png?text=App+Preview)
-
----
 
 ## ▶️ Run Locally
 
@@ -66,7 +59,7 @@ Question-Pair-Model/
 git clone https://github.com/your-username/Beginner-Python-Projects.git
 
 # Go inside project
-cd Beginner-Python-Projects/Question-Pair-Model
+cd Beginner-Python-Projects/DUPLICATE-QUESTION-PAIRS
 
 # Install dependencies
 pip install -r requirements.txt
@@ -93,7 +86,7 @@ streamlit run app.py
 
 * Use Deep Learning (LSTM / BERT)
 * Deploy on cloud
-* Add dataset visualization
+
 
 ---
 
