@@ -74,8 +74,8 @@ streamlit run app.py
 
 **Input:**
 
-* Q1: What is AI?
-* Q2: What is Artificial Intelligence?
+* Q1: How many hours should we sleep in a week?
+* Q2: For how many hours we should try to get sleep in a week?
 
 **Output:**
 👉 Duplicate ✅
