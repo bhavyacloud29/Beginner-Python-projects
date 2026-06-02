@@ -90,9 +90,9 @@ streamlit run app.py
 
 ---
 
-## 🤝 Contributing
+## 🤝 Addition Note
 
-Pull requests are welcome. For major changes, open an issue first.
+This project was done for learning purpose only. Original author of this project is CampusX
 
 ---
 
